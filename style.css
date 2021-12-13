@@ -1,0 +1,106 @@
+:root {
+  --main: #90b568;
+  --secondary: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 1296px;
+  align-items: center;
+  border: #90b568 3px solid;
+}
+
+.logo {
+  padding-left: 5px;
+}
+
+.nav-container .right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container .right .menu-items a {
+  text-decoration: none;
+  display: inline-block;
+  color: #000000;
+  margin-right: 30px;
+  transition: all 100ms;
+}
+
+.nav-container .right .menu-items a:hover {
+  transform: translateY(-2px);
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-section .right {
+  align-self: flex-end;
+  justify-content: flex-end;
+  padding-left: 230px;
+  margin-bottom: 50px;
+}
+
+.hero-section .left {
+  justify-content: flex-start;
+  margin-top: 128px;
+  margin-bottom: 76px;
+}
+
+.hero-section h1 {
+  font-size: 123px;
+  color: #90b568;
+  text-align: center;
+  line-height: 109px;
+  /* margin-top: 195px; */
+  /* margin-bottom: 318px; */
+}
+
+.buttons .btn {
+  background-color: #90b568;
+  padding: 20px;
+  padding-top: 35px;
+  padding-left: 30px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 70px;
+  width: 300px;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 110px;
+}
+
+.btn:hover {
+  background-color: var(--secondary);
+}
+
+.hero-section p {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
