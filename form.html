@@ -17,9 +17,30 @@
     <div class="container">
       <form name="contact" method="POST" data-netlify="true">
         <h3>GET IN TOUCH</h3>
-        <input type="text" id="name" placeholder="Your Name" required />
-        <input type="email" id="email" placeholder="Email ID" required />
-        <input type="text" id="phone" placeholder="Phone no." required />
+        <label
+          ><input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+        /></label>
+        <label
+          ><input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email ID"
+            required
+        /></label>
+        <label
+          ><input
+            type="text"
+            name="text"
+            id="phone"
+            placeholder="Phone no."
+            required
+        /></label>
         <textarea
           id="message"
           rows="4"
