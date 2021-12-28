@@ -55,6 +55,10 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 25px;
+  gap: 20px;
   padding-top: 150px;
+}
+
+.gajab:hover {
+  outline: 1px solid green;
 }
